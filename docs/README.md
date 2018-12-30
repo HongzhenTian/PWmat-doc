@@ -1,13 +1,6 @@
-# 此文档是 XXX 开发 API 文档
+# 龙讯教程
 
-> An awesome project.
-
-
-!> 关于我 
-
-<div style="background: #e3e3e3;display: flex;justify-content: center;padding: 10px;">
-	![](./imgs/myscancode.jpg)
-</div>
+> 为了让大家更加上手PWmat以及使用好MSTATION，我们推出龙讯教程系列。本教程分为两部分，一部分是针对PWmat输入输出介绍
+以及测试设置方法和技巧，另一部分是针对MSTATION使用的技巧，例如OPENMPI的安装、TORQUE的安装以及PWmat_GUI的使用等。
 
 
-docsify serve docs
