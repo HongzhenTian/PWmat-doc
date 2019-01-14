@@ -200,3 +200,30 @@ atom2.config文件如下：
 }
 ```
 利用GNUPLOT画图FINAL.BARRIER（GNUPLOT命令：plot 'FINAL.BARRIER' u 1:2 w lp）如下：
+![图片](../pic/tutorial-pwmat-neb-1.png)
+
+NEB计算过程中的结构均保存在MOVEMENT文件中，MOVEMENT格式如下：
+```angularjs
+   3 atoms,Iteration =   0 image=   0, Etot =  -0.4396318075E+02, Average Force=  0.23814E+00, Max force=  0.55146E+00
+   ...
+   3 atoms,Iteration =   0 image=   1, Etot =  -0.4388774304E+02, Average Force=  0.23814E+00, Max force=  0.55146E+00
+   ...
+   3 atoms,Iteration =   0 image=   2, Etot =  -0.4388774304E+02, Average Force=  0.23814E+00, Max force=  0.55146E+00
+   ...
+   ...
+   3 atoms,Iteration =  16 image=   8, Etot =  -0.4396233569E+02, Average Force=  0.32458E-02, Max force=  0.84249E-02
+```
+
+NEB计算过程中收敛过程的数据保存在RELAXSTEPS里面，内容如下：
+```angularjs
+It=   0  NEW E= -0.4391433473709E+02 Av_F= 0.24E+00 M_F= 0.55E+00 dE=.3E-05 dRho=.8E-03 SCF= 4 dL=-.12E+00 p*F= 0.17E-01 p*F0=-0.45E-01 Fch= 0.10E+01
+It=   1 CORR E= -0.4391260758048E+02 Av_F= 0.30E+00 M_F= 0.59E+00 dE=.2E-06 dRho=.2E-03 SCF= 3 dL=-.48E-01 p*F=-0.22E-01 p*F0=-0.45E-01 Fch= 0.99E+00
+It=   2 CORR E= -0.4391590002211E+02 Av_F= 0.25E-01 M_F= 0.56E-01 dE=.5E-06 dRho=.7E-04 SCF= 3 dL=-.87E-01 p*F=-0.55E-03 p*F0=-0.45E-01 Fch= 0.99E+00
+...
+It=  14 CORR E= -0.4391581508122E+02 Av_F= 0.40E-02 M_F= 0.11E-01 dE=.5E-06 dRho=.6E-06 SCF= 2 dL=-.12E-02 p*F= 0.75E-05 p*F0=-0.39E-03 Fch=-0.87E+01
+It=  15  NEW E= -0.4391580592798E+02 Av_F= 0.32E-02 M_F= 0.84E-02 dE=.6E-06 dRho=.8E-06 SCF= 2 dL=0.98E-03 p*F=-0.94E-04 p*F0=-0.29E-03 Fch=-0.93E+01
+It=  16 *END E= -0.4391580592798E+02 Av_F= 0.32E-02 M_F= 0.84E-02 dE=.6E-06 dRho=.8E-06 SCF= 2 dL=0.98E-03 p*F=-0.94E-04 p*F0=-0.29E-03 Fch=-0.93E+01
+			
+```
+
+和弛豫计算类似，一般也是参考能量（E）和最大力（M_F）的变化观察收敛情况。
