@@ -1,5 +1,5 @@
 # 高对称点路径产生
-本教程通过[sumo](http://www.pwmat.com/tarble/sumo.zip)产生高对称点路径，具体安装方法以及使用教程如下：
+本教程通过[sumo](http://39.98.50.106/pwmat-resource/course-download/PWmat/sumo.zip)产生高对称点路径，具体安装方法以及使用教程如下：
 
 #### 安装
 通过anaconda2安装sumo:

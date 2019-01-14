@@ -1,5 +1,5 @@
 # NEB计算
-[示例下载](http://www.pwmat.com/tutorial/tutorial_neb.zip)
+[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_neb.zip)
 #### NEB参数简介
 PWmat采用的NEB方法主要参考H. Jonsson, G. Mills and K. W. Jacobsen. 'Nudged Elastic Band Method for Finding Minimum Energy Paths of Transitions' in 'Classical and 
 Quantum Dynamics in Condensed Phase Simulations', ed. B. J. Berne, G. Ciccotti and D.F.Coker(World Scientic, 1998).

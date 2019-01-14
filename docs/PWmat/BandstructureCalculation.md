@@ -1,6 +1,6 @@
 # 能带计算
 #### 能带计算步骤
-[示例下载](http://www.pwmat.com/tutorial/tutorial_bandgap.zip)
+[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_bandgap.zip)
 能带计算一般需要进行两步：通过SCF计算得到收敛的电势文件（OUT.VR、OUT.VR_2，后者在spin=2才会产生)，将电势文件作为输入，进行NONSCF计算。将示例文件夹解压得到以下几个文件：
 ``` 
 {
@@ -96,3 +96,4 @@
 #### plot_band_structure.x---画能带图
 运行plot_band_structure.x会得到bandstructure_1.txt数据文件（如果OUT.FERMI存在，会自动减去费米能）和bandstructure.eps文件
 能图如下
+![图片](../pic/tutorial-pwmat-bandgap-1.png)
