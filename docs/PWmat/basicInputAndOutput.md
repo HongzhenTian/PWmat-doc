@@ -72,7 +72,7 @@ l_max="2"
 ```
 
 ## job.pbs---提交作业的脚本文件
-关于pbs作业调度使用可以参考[PBS使用](http://localhost:3000/#/MSTATION/TorqueUSE)，job.pbs内容如下：
+关于pbs作业调度使用可以参考[PBS使用](https://hongzhentian.github.io/PWmat-doc/#/MSTATION/TorqueUSE)，job.pbs内容如下：
 ```
 #PBS -N tutorial_basic-io   # 作业名
 #PBS -l nodes=1:ppn=1       # PWmat将CPU和GPU进行绑定，所以ppn=1表示一个GPU
