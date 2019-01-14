@@ -121,4 +121,7 @@ atom1.config文件如下：
        gnuplot RELAXSTEPS u 2:9 w lp   
 }
 ```
+![图片](../pic/tutorial-pwmat-relax-1.png)
+
 会得到如下最大受力变化的图
+![图片](../pic/tutorial-pwmat-relax-2.png)
