@@ -1,6 +1,6 @@
 # 自洽计算收敛性介绍
 #### 查看能量收敛情况
-[示例下载](http://www.pwmat.com/tutorial/tutorial_scf_converge.zip)
+[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_scf_converge.zip)
 
 将文件解压得到以下几个文件
 ``` 

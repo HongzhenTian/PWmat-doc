@@ -1,5 +1,5 @@
 # 基本输入输出
-[示例下载](http://www.pwmat.com/tutorial/tutorial_basic-io.zip)
+[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_basic-io.zip)
 
 将文件夹解压得到以下几个文件：
 
@@ -72,7 +72,7 @@ l_max="2"
 ```
 
 ## job.pbs---提交作业的脚本文件
-关于pbs作业调度使用可以参考PBS使用(待链接)，job.pbs内容如下：
+关于pbs作业调度使用可以参考[PBS使用](http://localhost:3000/#/MSTATION/TorqueUSE)，job.pbs内容如下：
 ```
 #PBS -N tutorial_basic-io   # 作业名
 #PBS -l nodes=1:ppn=1       # PWmat将CPU和GPU进行绑定，所以ppn=1表示一个GPU
