@@ -1,6 +1,6 @@
 # OPENMPI安装
 ```
-1. wget www.pwmat.com/pwmat_release/install.openmpi-2.1.0.zip(如果无法通过命令下载，可以点击此处install.openmpi-2.1.0.zip链接下载到本地再上传到服务器。)
+1. wget www.pwmat.com/pwmat-resource/course-download/MSTATION/install.openmpi-2.1.0.zip(如果无法通过命令下载，可以点击此处[install.openmpi-2.1.0.zip](http://39.98.50.106/pwmat-resource/course-download/MSTATION/install.openmpi-2.1.0.zip)链接下载到本地再上传到服务器。)
 
 
                   2. unzip install.openmpi-2.1.0.zip
