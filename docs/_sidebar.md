@@ -38,3 +38,4 @@
     * [Python集合包Anaconda下载安装](MSTATION/Anaconda)
     * [OPENMPI-2.1.0的编译安装](MSTATION/OPENMPI)
     * [PWmat GUI使用](MSTATION/PWmatGUI)
+    * [开源录屏软件OBS STUDIO使用](MSTATION/OBS_STUDIO.md)
