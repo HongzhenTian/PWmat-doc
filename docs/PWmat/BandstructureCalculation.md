@@ -1,6 +1,6 @@
 # 能带计算
 #### 能带计算步骤
-[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_bandgap.zip)
+[示例下载](http://www.pwmat.com/pwmat-resource/course-download/PWmat/tutorial_bandgap.zip)
 能带计算一般需要进行两步：通过SCF计算得到收敛的电势文件（OUT.VR、OUT.VR_2，后者在spin=2才会产生)，将电势文件作为输入，进行NONSCF计算。将示例文件夹解压得到以下几个文件：
 ``` 
 {
@@ -67,7 +67,7 @@
    split_kp.x < gen.kpt		
 }
 ```
-这里也提供另外一种自动产生高对称点的方法，可以参考[sumo](http://www.pwmat.com/tutorial-pwmat-sumo.html)的使用
+这里也提供另外一种自动产生高对称点的方法，可以参考[sumo](https://hongzhentian.github.io/PWmat-doc/#/PWmat/kpointspath)的使用
 #### job.pbs---提交作业的脚本文件
 关于pbs作业调度使用可以参考PBS使用，job.pbs内容如下：
 ```

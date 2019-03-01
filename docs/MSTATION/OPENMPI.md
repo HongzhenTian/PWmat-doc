@@ -2,7 +2,7 @@
 ```
 1. wget www.pwmat.com/pwmat-resource/course-download/MSTATION/install.openmpi-2.1.0.zip
  ```
- `(如果无法通过命令下载，可以点击此处[install.openmpi-2.1.0.zip](http://39.98.50.106/pwmat-resource/course-download/MSTATION/install.openmpi-2.1.0.zip)链接下载到本地再上传到服务器。)
+ `(如果无法通过命令下载，可以点击此处[install.openmpi-2.1.0.zip](http://www.pwmat.com/pwmat-resource/course-download/PWmat/install.openmpi-2.1.0.zip)链接下载到本地再上传到服务器。)
 
 ```
 

@@ -1,5 +1,5 @@
 # 原子位置优化
-[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/NH3-relax.zip)
+[示例下载](http://www.pwmat.com/pwmat-resource/course-download/PWmat/atomicrelax.zip)
 PWmat进行原子弛豫主要通过设置RELAX_DETAIL来完成。RELAX_DETAIL主要介绍如下：
 ``` 
 {

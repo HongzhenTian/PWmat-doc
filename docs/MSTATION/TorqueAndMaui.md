@@ -153,4 +153,4 @@ esac
 
 启动服务 `/etc/init.d/maui start`
 ## 安装视频
-安装视频讲解：[http://39.98.50.106/pwmat-resource/course-download/MSTATION/torque-install.mp4](http://39.98.50.106/pwmat-resource/course-download/MSTATION/torque-install.mp4)
+安装视频讲解：[torque-install.mp4](https://pan.baidu.com/s/12P3C2Q1TZncPERFsH8THLg#list/path=%2F)

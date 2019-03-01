@@ -1,5 +1,5 @@
 # 磁性计算
-[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_magnetic_1.zip)
+[示例下载](http://www.pwmat.com/pwmat-resource/course-download/PWmat/magnetic.zip)
 #### spin=2（线性磁矩计算）
 进行一些计算的时候，选择合适的初始磁性，有助于加快收敛（弛豫、自洽计算）。下面我们通过一个简单的例子来介绍。
 atom.config

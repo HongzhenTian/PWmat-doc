@@ -1,5 +1,5 @@
 # 基本输入输出
-[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_basic-io.zip)
+[示例下载](http://www.pwmat.com/pwmat-resource/course-download/PWmat/tutorial_basic-io.zip)
 
 将文件夹解压得到以下几个文件：
 

@@ -1,5 +1,5 @@
 # 晶格优化
-[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/Si-cell-relax.zip)
+[示例下载](http://www.pwmat.com/pwmat-resource/course-download/PWmat/CellRelax.zip)
 
 PWmat进行晶格弛豫计算主要是设置RELAX_DETAIL参数，介绍如下：
 ``` 

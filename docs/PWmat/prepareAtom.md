@@ -1,7 +1,7 @@
 # 准备atom.config
 
 ## atom.config文件简介
-[示例下载](http://39.98.50.106/pwmat-resource/course-download/PWmat/tutorial_prepare_config.zip)
+[示例下载](http://www.pwmat.com/pwmat-resource/course-download/PWmat/tutorial_prepare_config.zip)
 
 atom.config包含了晶格格矢、原子位置以及初始的速度、受力、磁矩、压力用于其他功能计算。通常的atom.config格式如下：
 ```
@@ -44,4 +44,4 @@ poscar2config.x用于将Xcrysden的xsf周期性结构文件转换为atom.config�
 xsf2config.x < atom.xsf	
 ```
 
-#### [视频解说](http://39.98.50.106/pwmat-resource/course-download/PWmat/convert_to_config.mp4)
+#### [视频解说](http://www.pwmat.com/pwmat-resource/course-download/PWmat/convert_to_config.mp4)
