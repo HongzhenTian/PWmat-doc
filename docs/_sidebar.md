@@ -18,6 +18,7 @@
 	* [DOS计算](PWmat/DOSCalculation)
 	* [分子动力学计算](PWmat/MDCalculation)
 	* [电荷密度可视化](PWmat/chargevisual.md)
+	* [结构优化的十条箴言](PWmat/relaxtentips.md)
 
 * MSTATION教程
 

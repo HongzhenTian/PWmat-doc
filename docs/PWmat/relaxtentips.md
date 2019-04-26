@@ -1,0 +1,18 @@
+# 结构优化的十条箴言
+![图片](../pic/relaxtentips/Relax_tips_1.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_2.jpg)   
+![图片](../pic/relaxtentips/Relax_tips_3.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_4.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_5.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_6.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_7.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_8.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_9.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_10.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_11.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_12.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_13.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_14.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_15.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_16.jpg)
+
