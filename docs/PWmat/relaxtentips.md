@@ -15,4 +15,6 @@
 ![图片](../pic/relaxtentips/Relax_tips_14.jpg)  
 ![图片](../pic/relaxtentips/Relax_tips_15.jpg)  
 ![图片](../pic/relaxtentips/Relax_tips_16.jpg)
+![图片](../pic/relaxtentips/Relax_tips_17.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_18.jpg)
 
