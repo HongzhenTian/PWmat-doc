@@ -22,7 +22,7 @@ etot.input中设置如下：
    NUM_BAND = 13
 }
 ```
-<font color="red">（特别注意：当在etot.input中设置“IN.OCC = T”的时候，SCF_ITER0_1的参数“Fermi-Dirac”将被自动设置为0；反过来说，如果你设置了“Fermi-Dirac = 0”，必须提供IN.OCC文件，并且在etot.input中设置“IN.OCC = T”）</font>
+（特别注意：当在etot.input中设置“IN.OCC = T”的时候，SCF_ITER0_1的参数“Fermi-Dirac”将被自动设置为0；反过来说，如果你设置了“Fermi-Dirac = 0”，必须提供IN.OCC文件，并且在etot.input中设置“IN.OCC = T”）
 
 atom.config文件如下：
 ```
