@@ -10,7 +10,7 @@ PWmat进行晶格弛豫计算主要是设置RELAX_DETAIL参数，介绍如下：
   NSTEP控制弛豫的最大步数
   FORCE_TOL控制离子弛豫的力的收敛，单位eV/A
   ISTRESS控制是否进行CELL优化，0不优化晶格；1优化晶格
-  TOL_STRESS控制晶格优化的收敛条件，单位eV/A^2
+  TOL_STRESS控制晶格优化的收敛条件，单位eV/Natom
 }
 ```
 本例中，etot.input如下：

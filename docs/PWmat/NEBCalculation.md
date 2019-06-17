@@ -7,15 +7,17 @@ PWmat中控制NEB方法的主要参数是NEB_DETAIL，详解如下：
 ``` 
 {
   NEB_DETAIL = IMTH, NSTEP, FORCE_TOL, NIMAGE, AK, TYPE_STRING, E0, EN, ITYPE_AT2, ATOM2.CONFIG
-  IMTH：原子弛豫方法 1：CG；2：BFGS；3：deepest decent。对于NEB计算，推荐使用3。
+  IMTH：原子弛豫方法 1：CG；2：BFGS；3：deepest decent；4：VFF PCG；5：Limited-memory BFGS；6：FIRE。对于NEB计算，推荐使用1，5，6。
   NSTEP：原子弛豫的最大步数。
   FORCE_TOL：原子在弛豫过程中所受最大力的收敛条件。
   NIMAGE：NEB方法中image的数量。包括最初和最末原子位置，一共NIMAGE+2个atom.config。
-  TYPE_SPRING：NEB方法 1：原始的NEB方法，去掉垂直string的力；2：惯用的NEB方法，垂直string的力没有去掉。
   AK：spring常数（ev/A^2），推荐0.1~1eV/A^2。对于TYPE_STRING=2, 越大的AK，越容易收敛，同时误差更大。
+  TYPE_SPRING：NEB方法 1：原始的NEB方法，去掉垂直string的力；2：传统的弹性力，类似弹簧的弹性力，垂直string的力没有去掉，
+  该方法算出的势垒不准，但是很容收敛，对于路径复杂的体系，推荐先用该方法进行计算，然后用1或者3续算；3：常用的NEB算法，
+  改进了切线的计算方法。
   E0、EN：相邻的局域能量最小值，一般通过RELAX获得。
   ITYPE_AT2，ATOM2.CONFIG：atom2.config的类型和atom2.config的文件名。
-            ITYPE_AT2=1，atom2.config包含第二个局域能量最小值的原子位置；
+            ITYPE_AT2=1，atom2.config只包含第二个局域能量最小值的原子位置；
             ITYPE_AT2=2，atom2.config包含了NIMAGE+2个原子结构，这个文件一般从之前的计算得到的MOVEMENT中得到。
 }
 ```
@@ -199,8 +201,8 @@ atom2.config文件如下：
         8      -0.77577059480000E+04    0.000000E+00   0.000000E+00		
 }
 ```
-利用GNUPLOT画图FINAL.BARRIER（GNUPLOT命令：plot 'FINAL.BARRIER' u 1:2 w lp）如下：
-![图片](../pic/tutorial-pwmat-neb-1.png)
+利用origin或者gnuplot画图：
+![图片](../pic/NEB2.png)![图片](../pic/NEB1.png)
 
 NEB计算过程中的结构均保存在MOVEMENT文件中，MOVEMENT格式如下：
 ```angularjs

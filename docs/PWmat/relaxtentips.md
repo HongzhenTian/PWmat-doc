@@ -1,4 +1,5 @@
-# 结构优化的十条箴言
+<font size=5><center>**结构优化的十条箴言**</center></font>
+
 ![图片](../pic/relaxtentips/Relax_tips_1.jpg)  
 ![图片](../pic/relaxtentips/Relax_tips_2.jpg)   
 ![图片](../pic/relaxtentips/Relax_tips_3.jpg)  
