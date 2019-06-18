@@ -1,6 +1,6 @@
 <font size=5><center>**分子动力学计算**</center></font>
 
-PWmat进行晶格弛豫计算主要是设置MD_DETAIL参数，介绍如下：
+PWmat进行分子动力学模拟主要是设置MD_DETAIL参数，介绍如下：
 ``` 
 {
   MD_DETAIL = MD, NSTEP, DT, TEMP1, TEMP2
