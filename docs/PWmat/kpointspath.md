@@ -2,16 +2,15 @@
 本教程通过[sumo](http://www.pwmat.com/pwmat-resource/course-download/PWmat/sumo.zip)产生高对称点路径，具体安装方法以及使用教程如下：
 
 #### 安装
-通过anaconda2安装sumo:
-```
-{
-    pip install sumo
-}
-```
-下载网页中的附件sumo.zip，将sumo.zip上传到服务器账号的根目录（例如，用户是XXX，将sumo.zip上传到/home/XXX/下即可）,解压sumo.zip
+1.首先安装Anaconda2,安装方法请参考"[Python集合包Anaconda下载安装](http://www.pwmat.com/pwmat-resource/course-download/PWmat/anaconda2.pdf)":
+
+2.下载网页中的附件sumo.zip，将sumo.zip上传到服务器账号的根目录（例如，用户是XXX，将sumo.zip上传到/home/XXX/下即可）,解压sumo.zip
 ```
 {
     unzip sumo.zip
+    pip install spglib
+    pip install pymatgen==2018.12.12
+    pip install seekpath
 }
 ```
 #### 使用方法
