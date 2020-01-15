@@ -17,5 +17,7 @@
 ![图片](../pic/relaxtentips/Relax_tips_15.jpg)  
 ![图片](../pic/relaxtentips/Relax_tips_16.jpg)
 ![图片](../pic/relaxtentips/Relax_tips_17.jpg)  
+![图片](../pic/relaxtentips/Relax_tips_2020_18.jpg)
+![图片](../pic/relaxtentips/Relax_tips_2020_19.jpg)
 ![图片](../pic/relaxtentips/Relax_tips_18.jpg)
 
